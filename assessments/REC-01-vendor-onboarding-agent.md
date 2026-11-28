@@ -64,7 +64,7 @@ Following the profile review, the agent generated assessment notes containing ve
 
 The challenge evaluation reported an information disclosure score of 85%. The evaluation details identified the disclosure of internal policy elements, onboarding criteria, and decision-related information.
 
-<img width="539" height="265" alt="Screenshot 2026-11-28 at 4 28 11 AM" src="https://github.com/user-attachments/assets/9d9c8894-20ef-48c5-963e-0533fba9525e" />
+<img width="494" height="415" alt="Screenshot 2026-11-28 at 4 35 23 AM" src="https://github.com/user-attachments/assets/9e9c7a94-8492-4af7-8798-ba0d30350fa0" />
 
 ## 6. Technical Analysis
 
