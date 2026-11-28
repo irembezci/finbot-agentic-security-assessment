@@ -10,10 +10,10 @@ The assessments are documented individually to provide a structured and evidence
 
 ## Assessments
 
-| ID | Assessment | Focus | Status |
-|---|---|---|---|
-| REC-01 | [Reconnaissance: Vendor Onboarding Agent](REC-01-vendor-onboarding-agent.md) | Indirect Prompt Injection, Internal Policy Disclosure | Completed |
-| REC-02 | [Reconnaissance: Invoice Processing Agent](REC-02-invoice-processing-agent.md) | Indirect Prompt Injection, Financial Policy Disclosure | Completed |
+| ID | Assessment | Vulnerability | Impact | Status |
+|---|---|---|---|---|
+| REC-01 | [Vendor Onboarding Agent](REC-01-vendor-onboarding-agent.md) | Indirect Prompt Injection | Internal Policy Disclosure | Completed |
+| REC-02 | [Invoice Processing Agent](REC-02-invoice-processing-agent.md) | Indirect Prompt Injection | Financial Policy Disclosure | Completed |
 
 ## Assessment Approach
 
