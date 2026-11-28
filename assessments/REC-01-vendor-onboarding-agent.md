@@ -117,3 +117,26 @@ The resulting agent output and generated assessment notes were examined for info
 
 The challenge evaluation indicated successful information disclosure. The agent output contained elements of internal vendor evaluation criteria and onboarding policies, demonstrating that vendor controlled input could influence the agent's response.
 
+## 9. Conclusion
+
+The assessment demonstrated that vendor-controlled content submitted through the Vendor Portal could influence the Vendor Onboarding Agent's behavior and result in the disclosure of internal onboarding policies and evaluation criteria.
+
+The successful test highlighted a potential weakness in the agent's handling of untrusted external content, particularly when vendor-provided information contained embedded instructions. The disclosed information included internal decision-related criteria, trust classification details, and onboarding policy elements.
+
+Although the assessment confirmed the disclosure behavior, the underlying prompt construction, context handling, and enforcement mechanisms could not be directly inspected. Therefore, the precise technical mechanism responsible for the observed behavior remains unverified.
+
+The assessment confirms that indirect prompt injection through vendor-controlled input can present a significant information disclosure risk in AI-powered vendor onboarding workflows.
+
+## 10. Remediation Recommendations
+
+- **Instruction Boundary Enforcement:** Clearly distinguish trusted system instructions from vendor-provided content. External input should not be interpreted as instructions capable of overriding the agent's intended behavior.
+
+- **Untrusted Input Isolation:** Treat vendor-submitted fields as untrusted data throughout the agent processing workflow. Input handling mechanisms should prevent external content from altering internal instructions or operational policies.
+
+- **Information Disclosure Controls:** Restrict the disclosure of internal onboarding policies, vendor evaluation criteria, trust classification logic, and operational decision-making information.
+
+- **Output Filtering:** Implement controls to evaluate agent responses before they are exposed to external users. Responses containing internal policy information or restricted operational details should be appropriately restricted.
+
+- **Security Testing:** Conduct regular security testing against indirect prompt injection scenarios involving vendor-controlled inputs, including attempts to extract internal instructions, policies, and evaluation criteria.
+
+
