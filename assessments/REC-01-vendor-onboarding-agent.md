@@ -9,9 +9,14 @@
 | Environment | OWASP FinBot CTF |
 | FinBot Challenge Category | Reconnaissance |
 | Challenge Type | System Prompt Leak |
-| Primary OWASP Mapping | OWASP Top 10 for Agentic Applications 2026 – ASI01: Agent Goal Hijack (provisional) |
-| Related Risks | Indirect Prompt Injection, Information Disclosure |
-| Assessment Status | In Progress |
+| Primary Vulnerability | Indirect Prompt Injection |
+| Primary Impact | Internal Policy Disclosure |
+| OWASP LLM Mapping | LLM01: Prompt Injection; LLM07: System Prompt Leakage |
+| CWE Mapping | CWE-200: Exposure of Sensitive Information to an Unauthorized Actor |
+| MITRE ATLAS Mapping | AML.T0043: Prompt Injection; AML.T0015: Model Information Extraction |
+| OWASP Agentic Mapping | ASI-01: Agent Goal Hijack (Related) |
+| Related Risks | Agent Goal Hijack, Information Disclosure |
+| Assessment Status | Completed |
 
 ## 2. Objective
 
